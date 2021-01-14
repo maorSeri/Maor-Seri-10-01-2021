@@ -1,0 +1,12 @@
+<div>
+  <div class = city-name>{{city.LocalizedName}}</div>
+  <div class="weather-description">{{fiveDay?.Headline.Text}}</div>
+  <div class = five-day-forecast>
+    <div class="day-temp" *ngFor="let day of fiveDay?.DailyForecasts">
+      <mat-card class="day-card">
+        <div class="row-info">{{getDayFromDate(day.Date)}}</div>
+        <div class="row-info" >{{getMinValue(day)}} &deg; - {{getMaxValue(day)}} &deg;</div>
+      </mat-card>
+    </div>
+  </div>
+</div>

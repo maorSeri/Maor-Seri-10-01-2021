@@ -1,0 +1,9 @@
+<div class="all-cities">
+  <span class="all-cities" *ngFor="let city of currantWeather">
+  <button class="city-info" mat-raised-button (click)="showForecast(city.City)">
+    <div class="city-name">  {{city.City.LocalizedName}}</div>
+    <div>{{getTemperature(city)}}&deg;</div>
+    <div>{{city.WeatherText}}</div>
+  </button>
+</span>
+</div>

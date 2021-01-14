@@ -1,0 +1,7 @@
+<div>
+  <div class="search-and-like">
+    <app-search class="search" (eventCityChosen)="setCity($event)"></app-search>
+    <app-favorite-btn id="favorite-btn" [city] ="currantCity"></app-favorite-btn>
+  </div>
+  <app-forecast class="forecast" [city] ="currantCity"></app-forecast>
+</div>

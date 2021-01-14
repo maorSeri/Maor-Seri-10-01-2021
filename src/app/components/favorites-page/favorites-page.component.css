@@ -1,0 +1,15 @@
+.all-cities{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.city-info{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.city-name{
+  font-size: large;
+}

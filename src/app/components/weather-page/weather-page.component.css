@@ -1,0 +1,14 @@
+.forecast{
+  padding-top: 10%;
+}
+
+.search-and-like{
+  display: flex;
+  justify-content: space-between;
+}
+
+.search{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 1%;
+}

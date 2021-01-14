@@ -1,0 +1,31 @@
+.day-temp{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.day-card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:10px;
+}
+.five-day-forecast{
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.city-name{
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.weather-description{
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}

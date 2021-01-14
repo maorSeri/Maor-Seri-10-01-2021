@@ -1,0 +1,11 @@
+<mat-toolbar class = header color="primary">
+  <div class = header-link fxFlex fxLayout fxLayoutAlign="end">
+        <a class="link" routerLink="">Weather</a>
+        <a class="link" routerLink="/favorites">Favorites</a>
+  </div>
+  <div>
+    <span class="C">C</span>
+    <mat-slide-toggle [(ngModel)]="isChecked" (click)="changeUnitType()"></mat-slide-toggle>
+    <span class="F">F</span>
+  </div>
+</mat-toolbar>
