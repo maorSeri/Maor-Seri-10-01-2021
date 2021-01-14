@@ -15,7 +15,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class WeatherService {
-  apikey = 'hlctxZlUQNk0ixQBnhlkt9QyR3oE89aD';
+  apikey = 'GPjX71JBgyaWOYFGqovG5SvOsCXSMGmn';
   accuweatherURL = 'http://dataservice.accuweather.com/';
   language = '&language=en-us';
   constructor(private http: HttpClient) { }
