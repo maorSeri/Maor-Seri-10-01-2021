@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import {Component, OnInit} from '@angular/core';
 import {TemperatureUnitService} from '../../services/temperature-unit.service';
+
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
