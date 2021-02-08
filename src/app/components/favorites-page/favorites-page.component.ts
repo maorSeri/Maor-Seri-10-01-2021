@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {CityInfo} from '../../modules/CityInfo';
+import {CityInfo} from '../../models/CityInfo';
 import {WeatherService} from '../../services/weather.service';
-import {FavoriteInfoDisplay} from '../../modules/FavoriteInfoDisplay';
+import {FavoriteInfoDisplay} from '../../models/FavoriteInfoDisplay';
 import {Router} from '@angular/router';
 import {ToastrService} from 'ngx-toastr';
 import {TemperatureUnitService} from '../../services/temperature-unit.service';

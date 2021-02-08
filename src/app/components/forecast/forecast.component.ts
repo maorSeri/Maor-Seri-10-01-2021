@@ -1,9 +1,9 @@
 import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
-import {CityInfo} from '../../modules/CityInfo';
-import {DailyForecasts} from '../../modules/DailyForecasts';
+import {CityInfo} from '../../models/CityInfo';
+import {DailyForecasts} from '../../models/DailyForecasts';
 import {WeatherService} from '../../services/weather.service';
 import {ToastrService} from 'ngx-toastr';
-import {TempInfo} from '../../modules/TempInfo';
+import {TempInfo} from '../../models/TempInfo';
 import {TemperatureUnitService} from '../../services/temperature-unit.service';
 
 @Component({

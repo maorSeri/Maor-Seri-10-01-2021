@@ -1,9 +1,9 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs';
-import {CityInfo} from '../modules/CityInfo';
-import {DailyForecasts} from '../modules/DailyForecasts';
-import {CurrantWeather} from '../modules/CurrantWeather';
+import {CityInfo} from '../models/CityInfo';
+import {DailyForecasts} from '../models/DailyForecasts';
+import {CurrantWeather} from '../models/CurrantWeather';
 
 const httpOptions = {
   headers: new HttpHeaders({

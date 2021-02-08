@@ -2,7 +2,7 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {FormBuilder, FormGroup} from '@angular/forms';
 import {debounceTime, finalize, switchMap, tap} from 'rxjs/operators';
 import {WeatherService} from '../../services/weather.service';
-import {CityInfo} from '../../modules/CityInfo';
+import {CityInfo} from '../../models/CityInfo';
 import {ToastrService} from 'ngx-toastr';
 
 @Component({

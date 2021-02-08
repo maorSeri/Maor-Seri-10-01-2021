@@ -1,5 +1,5 @@
 import {Component, Input, OnInit, OnChanges, OnDestroy, SimpleChanges} from '@angular/core';
-import {CityInfo} from '../../modules/CityInfo';
+import {CityInfo} from '../../models/CityInfo';
 
 @Component({
   selector: 'app-favorite-btn',

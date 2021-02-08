@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CityInfo} from '../../modules/CityInfo';
+import {CityInfo} from '../../models/CityInfo';
 
 @Component({
   selector: 'app-weather-page',
